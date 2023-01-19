@@ -1,0 +1,23 @@
+main
+{int} b
+{int} a
+b = 3*3
+a = 12/4
+{ass}b
+{int}c
+{co} b
+{dv} a, b
+c = (2+3)*6-12/(8-4)
+{print}a
+
+def{ass} a
+a = a+3
+{print} a
+
+def{co} a
+a = a*3
+{print} a
+
+def{dv} c, d
+c = c+d
+{print} c

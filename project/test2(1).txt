@@ -1,0 +1,31 @@
+main
+{int} a
+{int} b
+{print} 'Test started'
+a = (1+2)*(4/2)*(5-3)
+{print} 'Now var a is'
+{print} a
+
+{print} 'Testing calling functions'
+{print} 'The double of a is'
+{double} a
+{calc} a
+b = 4
+{print} 'Now var a is'
+{print} a
+{print} 'Now var b is'
+{print} b
+{print} 'a+b is'
+{add} a,b
+
+{end}
+
+
+def {calc} num
+num = (num-3)*(num-2)
+{print} 'Function calc result'
+{print} num
+
+
+def {end}
+{print} 'Test ended'
